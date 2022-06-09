@@ -1,0 +1,17 @@
+{
+  "name": "bizwiz",
+  "version": "1.0.0",
+  "description": "biz website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass resources/sass/main.scss resources/css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
